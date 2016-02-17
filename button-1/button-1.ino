@@ -16,12 +16,10 @@ void loop() {
   onButtonState = digitalRead(onButtonPin);
   if (onButtonState == HIGH) {
     digitalWrite(ledPin, HIGH);
-    delay(100);
   }
 
   offButtonState = digitalRead(offButtonPin);
   if (offButtonState == HIGH) {
     digitalWrite(ledPin, LOW);
-    delay(10);
   }
 }
