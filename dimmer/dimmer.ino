@@ -9,8 +9,8 @@ int duty = 100;
 
 void setup() {
   pinMode(ledPin, OUTPUT);      // initialize LED pin as output
-  pinMode(onButtonPin, INPUT);  // initialize button pin as input
-  pinMode(offButtonPin, INPUT); // initialize button pin as input
+  pinMode(upButtonPin, INPUT);  // initialize button pin as input
+  pinMode(downButtonPin, INPUT); // initialize button pin as input
 }
 
 void loop() {
